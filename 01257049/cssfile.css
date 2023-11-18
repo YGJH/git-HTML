@@ -1,3 +1,9 @@
+body {
+    　background-image:url( '' );
+    　background-repeat:no-repeat;
+    　background-color: 背景顏色;
+}
+
 a{
     color : blueviolet
 }
