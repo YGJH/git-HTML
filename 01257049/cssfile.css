@@ -1,0 +1,39 @@
+a{
+    color : blueviolet
+}
+a:hover{ 
+    color:#F00
+}
+body{
+    background-color : antiquewhite
+}
+.warp{
+    overflow : hidden;
+    border-radius : 20px 10px 20px 10px;
+    border: style;
+}
+
+.ability
+{
+    padding : 100px;
+    margin : 100px;
+    width : 100px;
+
+}
+
+th{
+    background-color : black;
+    color : aliceblue;
+    text-align:left;
+    padding : 10px;
+}
+
+td{
+    background-color : white;
+    color : black;
+    text-align:left;
+    padding : 10px;
+    margin : 10px;
+    width : 50px;
+   }
+
