@@ -20,12 +20,10 @@ body{
     border: style;
 }
 
-.ability
-{
-    padding : 100px;
-    margin : 100px;
-    width : 100px;
-
+#blockk {
+    height: 50px;
+    width: 50px;
+    color: red;
 }
 
 th{
@@ -44,3 +42,13 @@ td{
     width : 50px;
    }
 
+#image2 {
+    display: none;
+}
+#caption2 {
+    display: none;
+}
+#table2
+{
+    display: none;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>圖片切換</title>
+    <style>
+        #image2 {
+            display: none;
+        }
+        #caption2 {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <img id="image1" src="smallkabi.png" alt="圖片1">
+    <p id="caption1">小卡比獸</p>
+    <img id="image2" src="kabi.png" alt="圖片2">
+    <p id="caption2">卡比獸</p>
+    <button id="switchButton" onclick="switchImage()">進化</button>
+
+    <script>
+        function switchImage() {
+            var image1 = document.getElementById('image1');
+            var image2 = document.getElementById('image2');
+            var caption1 = document.getElementById('caption1');
+            var caption2 = document.getElementById('caption2');
+            var switchButton = document.getElementById('switchButton');
+
+            if (image1.style.display == 'none') {
+                image1.style.display = 'block';
+                caption1.style.display = 'block';
+                image2.style.display = 'none';
+                caption2.style.display = 'none';
+                switchButton.innerHTML = '進化';
+            } else {
+                image1.style.display = 'none';
+                caption1.style.display = 'none';
+                image2.style.display = 'block';
+                caption2.style.display = 'block';
+                switchButton.innerHTML = '退化';
+            }
+        }
+    </script>
+    </br>
+    <a href = "introduce.html"> 自我介紹 </a>
+</br>
+    <a href = "pokemon.html"> 嘎啦嘎拉 </a>
+</br>
+    <a href= "tree.html"> 聖誕樹 </a>
+    <br>
+    <a href = "pokemon2.html" >卡比獸</a>
+</br>
+</body>
+</html>
